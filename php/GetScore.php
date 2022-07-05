@@ -38,7 +38,7 @@ else
 		}
 		else
 		{
-			echo 'Nieprawidłowy login lub hasło.';
+			echo 'Brak rekordow';
 		}
 	}
 	ELSE
