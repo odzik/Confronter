@@ -26,6 +26,5 @@ class start {
   
     $liczba = $_POST['Liczba'];
     $jsonData = json_encode( $ListOfObjects );
-    echo $jsonData."\n";
-
-?>
+    header("Content-Type: application/json; charset=utf-8");
+    echo $jsonData;
